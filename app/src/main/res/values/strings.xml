@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WeatherBot</string>
+    <string name="title_home">Home</string>
+    <string name="title_date">Current Date</string>
+    <string name="search_hint">Enter the City</string>
+    <string name="title_temperature">55°</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="api_key">b85341aba2d980f2d0a5d872c8397f84</string>
+    <string name="base_url">http://api.openweathermap.org/data/2.5/weather</string>
+</resources>
