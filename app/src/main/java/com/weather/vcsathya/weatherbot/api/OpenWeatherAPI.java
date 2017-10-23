@@ -1,4 +1,4 @@
-//package com.weather.vcsathya.weatherbot.api;
+package com.weather.vcsathya.weatherbot.api;
 //
 //import android.content.res.Resources;
 //import com.weather.vcsathya.weatherbot.R;
@@ -15,7 +15,7 @@
 //import retrofit2.adapter.rxjava.RxJavaCallAdapterFactory;
 //import retrofit2.converter.gson.GsonConverterFactory;
 //
-//public class OpenWeatherAPI {
+public class OpenWeatherAPI {
 //
 //    private final String BASE_URL = Resources.getSystem().getString(R.string.base_url);
 //    private final String API_KEY = Resources.getSystem().getString(R.string.api_key);
@@ -48,4 +48,4 @@
 //    public OpenWeatherAPIService providesApiService() {
 //        return provideRetrofit(BASE_URL, provideClient()).create(OpenWeatherAPIService.class);
 //    }
-//}
+}

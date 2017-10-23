@@ -7,7 +7,7 @@ public class Main {
 
     @SerializedName("temp")
     @Expose
-    private double temperature;
+    private double temp;
 
     @SerializedName("pressure")
     @Expose
@@ -26,11 +26,11 @@ public class Main {
     private int maxTemperature;
 
     public double getTemperature() {
-        return temperature;
+        return temp;
     }
 
     public void setTemperature(double temperature) {
-        this.temperature = temperature;
+        this.temp = temperature;
     }
 
     public int getPressure() {

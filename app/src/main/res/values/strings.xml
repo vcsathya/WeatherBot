@@ -1,11 +1,32 @@
 <resources>
     <string name="app_name">WeatherBot</string>
-    <string name="title_home">Home</string>
-    <string name="title_date">Current Date</string>
-    <string name="search_hint">Enter the City</string>
-    <string name="title_temperature">55°</string>
-    <string name="title_dashboard">Dashboard</string>
+
+    <!--Bottom Navigation-->
+    <string name="title_home">Forecast</string>
+    <string name="title_dashboard">Weather Report</string>
     <string name="title_notifications">Notifications</string>
-    <string name="api_key">b85341aba2d980f2d0a5d872c8397f84</string>
+
+    <!--UI-->
+    <string name="search_hint">Enter the City</string>
+    <string name="fahrenheit">°F</string>
+    <string name="celcius">°C</string>
+
+    <!--SharedPreference-->
+    <string name="location">location</string>
+
+    <!--API-->
+    <string name="api_key">&amp;appid=b85341aba2d980f2d0a5d872c8397f84</string>
+    <string name="units">&amp;units=imperial</string>
     <string name="base_url">http://api.openweathermap.org/data/2.5/weather</string>
+    <string name="image_url">http://openweathermap.org/img/w/</string>
+    <string name="image_type">.png</string>
+    <string name="default_location">New York City</string>
+
+    <!--Error Messages-->
+    <string name="internet_connection">Looks like you have a bad connection. Make sure your phone is connected to the internet</string>
+    <string name="network_error">There is a network issue at the moment. Please check back later.</string>
+    <string name="loading">Hang in there while we retrieve your location.</string>
+    <string name="invalid_location">The location you entered does not seem to be valid. Check your entry!</string>
+    <string name="empty_location">Enter a city to search</string>
+
 </resources>
